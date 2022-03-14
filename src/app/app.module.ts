@@ -11,6 +11,10 @@ import { NavComponent } from './component/template/nav/nav.component';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 
+import { MatCardModule } from '@angular/material/card';
+
+import { HomeComponent } from './views/home/home.component';
+
 
 
 
@@ -19,7 +23,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
  
     
   
@@ -30,7 +35,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     AppRoutingModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
