@@ -15,10 +15,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
 
+
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
 
+import { MatInputModule } from '@angular/material/input';
 
 
 
@@ -30,10 +33,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
- 
-    
-  
+    ProductCreateComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +44,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
