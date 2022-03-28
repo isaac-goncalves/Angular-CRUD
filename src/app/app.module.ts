@@ -18,8 +18,12 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+<<<<<<< Updated upstream
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
+=======
+import { ProductCreateComponent } from './components/products/product-create/product-create.component';
+>>>>>>> Stashed changes
 
 import { MatInputModule } from '@angular/material/input';
 
@@ -33,8 +37,15 @@ import { MatInputModule } from '@angular/material/input';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
+<<<<<<< Updated upstream
     ProductCreateComponent,
     CalendarComponent
+=======
+    ProductCreateComponent
+ 
+    
+  
+>>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
