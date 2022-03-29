@@ -5,11 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './component/template/header/header.component';
-import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './component/template/footer/footer.component';
 import { NavComponent } from './component/template/nav/nav.component';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+
+
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -18,12 +21,9 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-<<<<<<< Updated upstream
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { CalendarComponent } from './components/calendar/calendar.component';
-=======
-import { ProductCreateComponent } from './components/products/product-create/product-create.component';
->>>>>>> Stashed changes
+
+
 
 import { MatInputModule } from '@angular/material/input';
 
@@ -37,15 +37,7 @@ import { MatInputModule } from '@angular/material/input';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-<<<<<<< Updated upstream
-    ProductCreateComponent,
-    CalendarComponent
-=======
     ProductCreateComponent
- 
-    
-  
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
@@ -56,7 +48,10 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatSnackBarModule
+  
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
