@@ -129,6 +129,26 @@
       "name": "Produto teste",
       "price": 666,
       "id": 26
+    },
+    {
+      "name": "asdas",
+      "price": "0asdasd",
+      "id": 27
+    },
+    {
+      "name": "Battery  Remaining Time",
+      "price": "0asdasd",
+      "id": 28
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 29
+    },
+    {
+      "name": "awdawdawd",
+      "price": "0awdad",
+      "id": 30
     }
   ]
 }
