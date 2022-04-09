@@ -9,7 +9,8 @@ import { ProductService } from '../product.service.ts.service';
 })
 export class ProductReadComponent implements OnInit {
 
-  products: Product[] | undefined ;
+  products: Product[] = [];
+  displayedColumns = ['id', 'name','price']
 
   constructor(private productService: ProductService) { }
 
@@ -18,7 +19,5 @@ export class ProductReadComponent implements OnInit {
         this.products = products
         console.log(products)
       })
-
   }
-
 }
